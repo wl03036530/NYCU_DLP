@@ -18,4 +18,12 @@ Implement two architectures (EEGNet and DeepConvNet) to classify images, and tes
 Implement ResNet18 and ResNet50 to classify images into five categories , and then test whether there is a difference in the accuracy of the pretrained model. 
 
 ## LAB 5
-Implement a seq2seq VAE 
+Implement a Conditional Seq2Seq VAE .  
+Input a word and designate one of its four forms (sp,tp,pg,p), and then output the word of that form.  
+(ex: input: eat, p > output: ate)
+
+## LAB 6
+Implement two deep reinforcement algorithms, DQN(deep Q-network) and DDPG(deep deterministic policy gradien).
+
+## LAB 7
+Use two Generator models (GAN, NF) to generate pictures with specified conditions.
